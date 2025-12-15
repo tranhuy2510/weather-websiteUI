@@ -8,7 +8,7 @@ const input = document.querySelector('.search-box input');
 
 const handleSearch = () => {
 
-    const APIKey = '13647fb31adb29c56b883359bb15e628';
+    const APIKey = config.API_KEY;
     const city = input.value;
 
     if (city == '')
